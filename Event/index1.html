@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+         <button>Like me</button>
+    </div>
+   
+</body>
+<script>
+var div=document.querySelector("div")  //event capturing
+var button=document.querySelector("button")
+   
+  div.addEventListener("click",()=>{
+    console.log("div")
+   })
+
+   button.addEventListener("click",()=>{
+    console.log("button")
+   })
+</script>
+</html>
